@@ -10,4 +10,9 @@ int main()
     cin >> y;
     
     cout << sum( x, y ) << endl;
+    cout << sub( x, y ) << endl;
+    cout << mult( x, y ) << endl;
+    cout << div( x, y ) << endl; 
+    cout << pow( x ) << endl;
+    cout << sq( x ) << endl;
 }
