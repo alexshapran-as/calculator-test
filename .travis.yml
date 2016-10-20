@@ -1,10 +1,10 @@
 language: generic
-os: osx
+os: windows
 matrix:
   include:
     - os: 
     -linux
-    -windows
+    -osx
       env: COMPILER_NAME=gcc CXX=g++-5 CC=gcc-5
       addons:
         apt:
