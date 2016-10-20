@@ -1,12 +1,13 @@
 #include <iostream>
 
 #include "calculator.hpp"
+using namespace std;
 
 int main()
 {
     int x, y;
-    std::cin >> x;
-    std::cin >> y;
+    cin >> x;
+    cin >> y;
     
-    std::cout << sum( x, y ) << std::endl;
+    cout << sum( x, y ) << endl;
 }
