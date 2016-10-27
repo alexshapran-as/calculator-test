@@ -15,4 +15,6 @@ int main()
     cout << div( x, y ) << endl; 
     cout << pow( x ) << endl;
     cout << sq( x ) << endl;
+    
+    return 0;
 }
