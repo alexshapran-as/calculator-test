@@ -18,6 +18,7 @@ matrix:
         apt:
           packages:
             - clang-3.8
+          source: *source
           script:
            - mkdir build
            - cd build
