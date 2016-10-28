@@ -32,7 +32,6 @@ double pow ( float a )
 }
 double sq ( float a )
 {
-	using namespace std;
 	float xn = 1.0;  
 	float xn1 = 2.0;
 
@@ -47,7 +46,6 @@ double sq ( float a )
 	}
 		else if ( a == 1 ) xn1 = 1;
 			else if ( a == 0 ) xn1 = 0;
-				else cout << "error";
 
 
 	return xn1;
