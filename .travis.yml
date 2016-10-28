@@ -1,8 +1,8 @@
 language: generic
-os: osx
+os:
+- osx
 matrix:
   include:
-    - os: windows
     - os: linux
       env: COMPILER_NAME=gcc CXX=g++-5 CC=gcc-5
       addons:
@@ -10,10 +10,9 @@ matrix:
           packages:
             - g++-5
           sources: &sources
-            - llvm-toolchain-precise-3.8
+            - llvm-toolchain-precise
             - ubuntu-toolchain-r-test
-
-          script:
-           - mkdir build
-           - cd build
-           - cmake .. && make
+script:
+- mkdir build
+- cd build
+- cmake .. && make
